@@ -1,0 +1,116 @@
+
+html {
+    color: black;
+    font-size: 1em;
+    line-height: 1.4;
+
+
+    color: black;
+}
+h1,h2,h3,h4,h5,h6,ol,ul{
+    margin: 0;
+    padding: 0;
+}
+h1,h2{
+    color:black;
+}
+h1{
+    text-align: center;
+    font-size: 180%;
+    font-weight: bold;/* BOLDER*/
+}
+
+
+@media only screen and (min-width : 320px) {
+    nav{
+        height: 40px;
+        width: 100%;/*un ancho a cada uno */
+    }
+    nav ul{
+
+    }
+
+    nav ul li{
+        font-size: 24px;
+        height: 30px;
+        background-color: coral;
+        width: calc(100%/3);
+        text-align: center;/* que el texto este centrado en su "caja"*/
+        list-style: none;/* le quitamos el disc de la lista*/
+        border: 1px solid white; /* lo de arriba del tiron*/
+    }
+    section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+    article div:first-child{
+        display: flex;
+
+    }
+    img{
+        height: 25%;
+    }
+    a,
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+    nav{
+        height: 40px;
+        width: 100%;/*un ancho a cada uno */
+    }
+    nav ul{
+        display: flex;
+    }
+
+    nav ul li{
+        font-size: 24px;
+        height: 30px;
+        background-color: coral;
+        width: calc(100%/3);
+        text-align: center;/* que el texto este centrado en su "caja"*/
+        list-style: none;/* le quitamos el disc de la lista*/
+        border: 1px solid white; /* lo de arriba del tiron*/
+    }
+   section{
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+   }
+article div:first-child{
+    display: flex;
+
+}
+img{
+    height: 25%;
+}
+    a,
+    a:visited {
+        text-decoration: none;
+        color: black;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+
